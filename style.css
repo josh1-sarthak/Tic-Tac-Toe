@@ -1,0 +1,32 @@
+body {
+    font-family: monospace;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.box {
+    border: 3px solid black;
+    font-size: 25px;
+    text-align: center;
+}
+
+input{
+    display: block;
+}
+
+button{
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+p, label {
+    font-size: 1.25em;
+}
+
